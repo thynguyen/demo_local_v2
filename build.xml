@@ -2,7 +2,7 @@
 <project name="Jenkins-Symfony2" default="all" basedir=".">
   <property file="./php.properties"/>
   <property file="./build.properties"/>
-  <target name="prepare" depends="clean,copy-resources">
+  <target name="prepare" depends="clean">
     <mkdir dir="${dir.output}"/>
     <mkdir dir="${dir.tmp}"/>
   </target>
