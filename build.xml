@@ -47,24 +47,6 @@
     />
   </target>
 
-  <target name="phpunit">
-    <exec command="${phing} _phpunit" passthru="true"/>
-  </target>
-  <target name="_phpunit">
-    <mkdir dir="${phpunit.output.xml.dir}"/>
-    <mkdir dir="${phpunit.output.html.dir}"/>
-    <exec
-      command="${phpunit.exec} ${phpunit.args}"
-      dir="${project.basedir}"
-      passthru="true"
-    />
-    <xslt
-      file="${phpunit.output.xml.file}"
-      tofile="${junit.output.xml.file}"
-      style="${junit.style}"
-    />
-  </target>
-
   <target name="phpmd">
     <exec command="${phing} _phpmd" passthru="true"/>
   </target>
