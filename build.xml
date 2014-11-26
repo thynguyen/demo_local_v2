@@ -247,14 +247,6 @@
     <delete dir="${dir.vendor}"/>
   </target>
 
-  <target name="copy-resources" description="Copy resources">
-    <copy todir="${project.basedir}/resources">
-        <fileset dir="${dir.resources}">
-            <include name="**"></include>
-        </fileset>
-    </copy>
-  </target>
-
   <target name="symfony-vendor" description="Update vendors for Symfony2">
     <exec command="${dir.bin}/curl -sS https://getcomposer.org/installer | php" passthru="true" />
     <exec command="${dir.bin}/php composer.phar update" passthru="true" />
