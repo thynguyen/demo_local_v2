@@ -1,0 +1,36 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:26:"/rest/p/versioncontrol_svn";}s:8:"_content";s:18:"VersionControl_SVN";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"0.5.2";s:2:"st";s:5:"alpha";s:1:"l";s:11:"BSD License";s:1:"m";s:5:"mrook";s:1:"s";s:67:"Simple OO wrapper interface for the Subversion command-line client.";s:1:"d";s:845:"What is VersionControl_SVN?
+
+VersionControl_SVN is a simple OO-style interface for Subversion,
+the free/open-source version control system.
+
+Some of VersionControl_SVN's features:
+
+* Full support of svn command-line client's  subcommands.
+* Exception handling.
+* Multi-object factory.
+* Source fully documented with phpDocumentor.
+* Stable, extensible interface.
+* Collection of helpful quickstart examples and tutorials.
+
+What can be done with VersionControl_SVN?
+
+* Make your source code available to your 
+  remote dev team or project manager.
+
+* Build your own WYSIWYG web interface to a
+  Subversion repository.
+ 
+* Add true version control to a content management
+  system!
+  
+Note: Requires a Subversion installation.
+Subverison is available from
+http://subversion.tigris.org/
+
+VersionControl_SVN is tested against Subversion 1.6 and 1.7.";s:2:"da";s:19:"2014-09-29 09:59:19";s:1:"n";s:512:"* Fix Bug #19902: Array to string conversion in SWITCH_MISSING exception message [mrook]
+ * Fix Bug #20025: empty vs. no value [mrook]
+ * Fix Bug #20031: Global options aren't accepted [mrook]
+ * Implement Feature #19901: Add parser for diff (xml) output [mrook]
+ * Implement Feature #19903: Add 'parents' switch support to update command [mrook]
+ * Implement Feature #19910: preProcessSwitches() never sets 'xml' to false [mrook]
+ * Implement Feature #20411: Add parser for propget & proplist xml output [mrook]";s:1:"f";s:5:"31356";s:1:"g";s:48:"http://pear.php.net/get/VersionControl_SVN-0.5.2";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.0.5.2.xml";}}}
