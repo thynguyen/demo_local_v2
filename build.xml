@@ -29,6 +29,29 @@
     />
   </target>
 
+	<!-- ================================= target: phpcs-clean ================================== -->
+	<target name="phpcs-clean" depends="" description="Remove any previously generated report">
+		<delete dir="${phpcs.output}" />
+	</target>
+	<!-- ================================= target: phpcs-init ================================== -->
+	<target name="phpcs-init" depends="" description="Create required folders for report">
+		<mkdir dir="${phpcs.output}" />
+	</target>
+
+	<!-- ================================= target: phpcs ================================== -->
+	<target name="phpcs" depends="phpcs-clean, phpcs-init" description="Php codesniffer utility">
+		<exec dir="${dir.output}" executable="phpcs" output="${target.dir}/phpcs/checkstyle.xml">
+			<arg line="--report=checkstyle" />
+			<arg line="--standard=Symfony2" />
+			<arg line="--extensions=php" />
+			<arg line="--ignore=.git/,doc/,resources/,build" />
+			<arg line="-n" />
+		</exec>
+		<xslt in="${phpcs.output.xml.file}" out="${phpcs.output.html.file}"
+		style="${phpcs.style}">
+		</xslt>
+	</target>
+
   <target name="phpcs">
     <exec command="${phing} _phpcs" passthru="true"/>
   </target>
