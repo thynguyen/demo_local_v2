@@ -42,7 +42,7 @@
 	<target name="phpcs" depends="phpcs-clean, phpcs-init" description="Php codesniffer utility">
 		<exec dir="${dir.output}" executable="phpcs" output="${phpcs.output.xml.file}">
 			<arg line="--report=checkstyle" />
-			<arg line="--standard=Symfony2" />
+			<arg line="--standard=Zend" />
 			<arg line="--extensions=php" />
 			<arg line="--ignore=.git/,doc/,resources/,build" />
 			<arg line="-n" />
