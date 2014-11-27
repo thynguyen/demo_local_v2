@@ -2,7 +2,7 @@
 <project name="demo_local_v2" default="all" basedir=".">
   <property file="./php.properties"/>
   <property file="./build.properties"/>
-  <target name="prepare" depends="copy-resources">
+  <target name="prepare" depends="clean,copy-resources">
     <mkdir dir="${dir.output}"/>
     <mkdir dir="${dir.tmp}"/>
   </target>
