@@ -45,8 +45,7 @@
 			<arg line="--report-file=${phpcs.output.xml.file}" />
 			<arg line="--standard=Zend" />
 			<arg line="--extensions=php" />
-			<arg line="--ignore=.git/,doc/,resources/,build" />
-			<arg line="-n" />
+			<arg line="--ignore=.git/,doc/,resources/,build ${dir.src}" />
 		</exec>
 		<xslt 
 			file="${phpcs.output.xml.file}" 
