@@ -6,10 +6,10 @@
     <mkdir dir="${dir.output}"/>
     <mkdir dir="${dir.tmp}"/>
   </target>
-
+<!--
   <target name="clean">
     <delete dir="${dir.output}"/>
-  </target>
+  </target>-->
 
   <target name="phpdepend">
     <exec command="${phing} _phpdepend" passthru="true"/>
