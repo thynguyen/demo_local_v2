@@ -29,30 +29,6 @@
     />
   </target>
 
-	<!-- ================================= target: phpcs-clean ================================== -->
-	<target name="phpcs-clean" depends="" description="Remove any previously generated report">
-		<delete dir="${phpcs.output}" />
-	</target>
-	<!-- ================================= target: phpcs-init ================================== -->
-	<target name="phpcs-init" depends="" description="Create required folders for report">
-		<mkdir dir="${phpcs.output}" />
-	</target>
-
-	<!-- ================================= target: phpcs ================================== -->
-	<target name="phpcs" depends="phpcs-clean, phpcs-init" description="Php codesniffer utility">
-		<exec dir="${project.basedir}" executable="phpcs" output="${phpcs.output.xml.file}">
-			<arg line="--report=checkstyle" />
-			<arg line="--report-file=${phpcs.output.xml.file}" />
-			<arg line="--standard=Zend" />
-			<arg line="--extensions=php" />
-			<arg line="--ignore=.git/,doc/,resources/,build ${dir.src}" />
-		</exec>
-		<xslt 
-			file="${phpcs.output.xml.file}" 
-			tofile="${phpcs.output.html.file}"
-			style="${phpcs.style}" />
-	</target>
-<!--
   <target name="phpcs">
     <exec command="${phing} _phpcs" passthru="true"/>
   </target>
@@ -69,7 +45,7 @@
       tofile="${phpcs.output.html.file}"
       style="${phpcs.style}"
     />
-  </target>-->
+  </target>
 
   <target name="phpunit">
     <exec command="${phing} _phpunit" passthru="true"/>
