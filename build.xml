@@ -40,8 +40,9 @@
 
 	<!-- ================================= target: phpcs ================================== -->
 	<target name="phpcs" depends="phpcs-clean, phpcs-init" description="Php codesniffer utility">
-		<exec dir="${dir.output}" executable="phpcs" output="${phpcs.output.xml.file}">
+		<exec dir="${project.basedir}" executable="phpcs" output="${phpcs.output.xml.file}">
 			<arg line="--report=checkstyle" />
+			<arg line="--report-file=${phpcs.output.xml.file}" />
 			<arg line="--standard=Zend" />
 			<arg line="--extensions=php" />
 			<arg line="--ignore=.git/,doc/,resources/,build" />
@@ -50,8 +51,7 @@
 		<xslt 
 			file="${phpcs.output.xml.file}" 
 			tofile="${phpcs.output.html.file}"
-			style="${phpcs.style}">
-		</xslt>
+			style="${phpcs.style}" />
 	</target>
 
   <target name="phpcs">
