@@ -264,6 +264,5 @@
   <target name="build" depends="prepare, test"/>
   <target name="test" depends="prepare, phpunit"/>
   <target name="report" depends="build, phploc, phpdoc, phpdepend, phpcs, phpmd, phpcpd"/>
-  <target name="sutrix" depends="clean,prepare,phpcs,phpcpd,phpdepend,phpmd" />
-  <target name="sutrixtest" depends="clean,prepare,phpcs,phpcpd,phpdepend,phpmd,phpunit" />
+  <target name="storepro" depends="clean,prepare,phpcs,phpcpd,phpdepend,phpmd" />
 </project>
