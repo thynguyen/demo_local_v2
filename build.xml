@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Demo V1" default="all" basedir=".">
+<project name="App" default="all" basedir=".">
   <property file="./php.properties"/>
   <property file="./build.properties"/>
   <target name="prepare" depends="clean,copy-resources">
