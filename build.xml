@@ -53,7 +53,7 @@
 			tofile="${phpcs.output.html.file}"
 			style="${phpcs.style}" />
 	</target>
-
+<!--
   <target name="phpcs">
     <exec command="${phing} _phpcs" passthru="true"/>
   </target>
@@ -70,7 +70,7 @@
       tofile="${phpcs.output.html.file}"
       style="${phpcs.style}"
     />
-  </target>
+  </target>-->
 
   <target name="phpunit">
     <exec command="${phing} _phpunit" passthru="true"/>
