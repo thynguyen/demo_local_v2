@@ -30,3 +30,4 @@ class App
     {
         return 42;
     }
+}
