@@ -19,7 +19,8 @@ namespace App;
  * @license  http://marcelog.github.com/ Apache License 2.0
  * @link     http://marcelog.github.com/
  */
-class App
+dfgdfgdfgdgdfggd
+class Appppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
 {
     /**
      * This will run the application.
@@ -28,7 +29,7 @@ class App
      */
     public function run()
     {
-		aa = 4444;
+		$a1412412415347458568968078078078078078078078070780787807807807807780087 = 4444;
 		echo 'this is xxxx'		
 		        
 		return 42;
