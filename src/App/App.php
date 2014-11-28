@@ -28,8 +28,8 @@ class App
      */
     public function run()
     {
-		$a1412412415347458568968078078078078078078078070780787807807807807780087 = 4444;
-		echo 'this is xxxx'		
+		$anhSan = 4444;
+		echo 'this is xxxx';		
 		        
 		return 42;
     }
