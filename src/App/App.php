@@ -8,10 +8,10 @@ class App
 
     public function run()
     {
-		$checkStyleCode=9;
+		$checkStyleCode______________________________________________________=9;
 		$checkBuildCode=9;
 		$checkCountCode=10;
-		if($checkStyleCode=9&&$checkBuildCode=9&&$checkCountCode=100000){
+		if($checkStyleCode______________________________________________________==9&&$checkBuildCode==9&&$checkCountCode==100000){
 			echo 'this is xxx';		
 		}				        
 		return 'xxx';
@@ -114,4 +114,3 @@ class App
 		$a = 'Anh nho em';
 	}
 }
-?>
