@@ -4,6 +4,8 @@ namespace App;
 
 class App
 {
+	public $con_co;
+
     public function run()
     {
 		$checkStyleCode=9;
@@ -112,3 +114,4 @@ class App
 		$a = 'Anh nho em';
 	}
 }
+?>
