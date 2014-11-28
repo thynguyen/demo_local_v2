@@ -6,8 +6,10 @@ class App
 {
     public function run()
     {
-		$x=9;
-		if($x=9){
+		$checkStyleCode=9;
+		$checkBuildCode=9;
+		$checkCountCode=10;
+		if($checkStyleCode=9&&$checkBuildCode=9&&$checkCountCode=100000){
 			echo 'this is xxx';		
 		}				        
 		return 'xxx';
