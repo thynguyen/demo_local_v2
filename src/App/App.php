@@ -28,15 +28,10 @@ class App
      */
     public function run()
     {
-		$anhSan = 4444;
-		$anhSan = 4444;
-		$a = array('1','2','3');
-		echo 'this is xxxx'
-	
-		$anhSan = 4444;
-		$anhSan = 4444;
-		$a = array('1','2','3');
-		echo 'this is xxxx'		
+		$anh_san_aaa_ddd_ddd_ddd = 4444;
+		$1 = 4444;
+		$2 = array('1','2','3',);
+		echo 'this is xxxx';
 		        
 		return $anhSan;
     }
