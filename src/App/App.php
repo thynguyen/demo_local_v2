@@ -6,8 +6,8 @@ class App
 {
     public function run()
     {
-		$xxx=9;
-		if($xxx==9){
+		$x=9;
+		if($x=9){
 			echo 'this is xxx';		
 		}				        
 		return 'xxx';
