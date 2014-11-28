@@ -29,8 +29,9 @@ class App
     public function run()
     {
 		$anhSan = 4444;
+		$anhSan = 4444;
 		echo 'this is xxxx';		
 		        
-		return 42;
+		return $anhSan;
     }
 }
