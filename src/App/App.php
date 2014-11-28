@@ -19,8 +19,7 @@ namespace App;
  * @license  http://marcelog.github.com/ Apache License 2.0
  * @link     http://marcelog.github.com/
  */
-dfgdfgdfgdgdfggd
-class Appppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+class App
 {
     /**
      * This will run the application.

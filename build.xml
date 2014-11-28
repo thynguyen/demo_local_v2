@@ -46,7 +46,7 @@
       style="${phpcs.style}"
     />
   </target>
-
+<!--
   <target name="phpunit">
     <exec command="${phing} _phpunit" passthru="true"/>
   </target>
@@ -63,7 +63,7 @@
       tofile="${junit.output.xml.file}"
       style="${junit.style}"
     />
-  </target>
+  </target>-->
 
   <target name="phpmd">
     <exec command="${phing} _phpmd" passthru="true"/>
