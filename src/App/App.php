@@ -30,6 +30,7 @@ class App
     {
 		$anhSan = 4444;
 		$anhSan = 4444;
+		$a = array('1','2','3');
 		echo 'this is xxxx';		
 		        
 		return $anhSan;
