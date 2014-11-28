@@ -11,15 +11,6 @@
  */
 namespace Test;
 
-/**
- * My Application sample
- *
- * @category SampleCiWithPhpxxx
- * @package  Test
- * @author   Marcelo Gornstein <marcelog@gmail.com>
- * @license  http://marcelog.github.com/ Apache License 2.0
- * @link     http://marcelog.github.com/
- */
 class Test
 {
     /**
