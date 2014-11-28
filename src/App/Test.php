@@ -1,115 +1,33 @@
 <?php
- 
-class recipe
+/**
+ * My Application sample
+ *
+ * @category SampleCiWithPhp
+ * @package  Test
+ * @author   Marcelo Gornstein <marcelog@gmail.com>
+ * @license  http://marcelog.github.com/ Apache License 2.0
+ * @link     http://marcelog.github.com/
+ */
+namespace Test;
+
+/**
+ * My Application sample
+ *
+ * @category SampleCiWithPhp
+ * @package  Test
+ * @author   Marcelo Gornstein <marcelog@gmail.com>
+ * @license  http://marcelog.github.com/ Apache License 2.0
+ * @link     http://marcelog.github.com/
+ */
+class Test
 {
- 
-    protected $_id;
- 
-    public $name;
- 
-    public $prep_time;
- 
-    function getIngredients() {
-        $ingredients = Ingredients::fetchAllById($this->_id);
-
-			
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-		$b = 'Anh nho em';
-
-
-        return $ingredients;
+    /**
+     * This will run the application.
+     *
+     * @return integer
+     */
+    public function run()
+    {
+        return 42;
     }
 }
-?>
