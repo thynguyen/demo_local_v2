@@ -28,6 +28,9 @@ class App
      */
     public function run()
     {
-        return 42;
+		aa = 4444;
+		echo 'this is xxxx'		
+		        
+		return 42;
     }
 }
