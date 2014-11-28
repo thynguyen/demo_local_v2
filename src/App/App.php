@@ -6,7 +6,10 @@ class App
 {
     public function run()
     {
-		        
+		$xxx=9;
+		if($xxx==9){
+			echo 'this is xxx';		
+		}				        
 		return 'xxx';
     }
 
