@@ -1,8 +1,9 @@
 <?php
 /**
  * My Application sample
+ * PHP version 5
  *
- * @category SampleCiWithPhp
+ * @category SampleCiWithPhpxxx
  * @package  Test
  * @author   Marcelo Gornstein <marcelog@gmail.com>
  * @license  http://marcelog.github.com/ Apache License 2.0
@@ -13,7 +14,7 @@ namespace Test;
 /**
  * My Application sample
  *
- * @category SampleCiWithPhp
+ * @category SampleCiWithPhpxxx
  * @package  Test
  * @author   Marcelo Gornstein <marcelog@gmail.com>
  * @license  http://marcelog.github.com/ Apache License 2.0
@@ -28,6 +29,7 @@ class Test
      */
     public function run()
     {
-        return 42;
+
+        return 'xxxx';
     }
 }
